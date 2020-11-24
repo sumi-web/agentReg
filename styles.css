@@ -263,7 +263,7 @@ input[type=number] {
 
 .wrap-contact100 {
   width: 100%;
-  background: #fff;
+  background: transparent;
   border-radius: 2px;
   position: relative;
   padding: .5rem 1rems;
@@ -579,11 +579,11 @@ select:focus+.focus-input100 {
 } */
 
 
-a:hover,
+/* a:hover,
 a:focus {
   text-decoration: none;
   outline: none;
-}
+} */
 
 #accordion {
   padding-right: 24px;
@@ -608,9 +608,10 @@ a:focus {
 
 .panel-body {
   padding: 1rem 2rem;
-  background-color: #fff !important;
+  /* background-color: #fff !important; */
   border-left: 1px solid #c87ff263;
   border-right: 1px solid #c87ff263;
+  background-color: #e8519f09 !important;
 }
 
 #accordion .panel-title a {
